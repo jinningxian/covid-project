@@ -21,7 +21,9 @@ from nbclient import NotebookClient
 from tools import bootstrap_locked_environment as bootstrap
 from tools.notebook_contract import (
     INPUT_COLUMNS,
+    ORIGINAL_CSV_BYTE_CONTRACT,
     finite_regression_metrics,
+    identify_original_csv_representation,
     network_guard_source,
     validate_covid_frame,
     validate_output_schemas,
@@ -33,16 +35,6 @@ NOTEBOOKS = (
     (ROOT / "Data Cleaning 1 - covid_19_india.csv.ipynb", 39, True),
     (ROOT / ".ipynb_checkpoints" / "Data Cleaning 1 - covid_19_india.csv-checkpoint.ipynb", 35, False),
 )
-TRACKED_CSV_HASHES = {
-    "covid_19_india.csv": "0465b0a26c09585d35c471423aff78056f3f46bb527c149af7524511c1a9e4c9",
-    "clean_data.csv": "f5f479e4962372f40884d8fd2d2fcabdbf81fc534553e86be7aeb06a96740184",
-    "group_by_state.csv": "2a7c9191cb6dbf2c9fd8591195f1fc1fc8fc300324016549fb0f156f94e3d2ff",
-    "min_death_state_dataset.csv": "1c305530bef9e4b7453a4164982d607380fef935e179f2b153407dc91f2d4993",
-    "most_confirmed_state_dataset.csv": "f39b72e9aee0579b47e7b60acb1e2d1ca82ac332ac8f95c8642b294c538de418",
-    "most_cured_state_dataset.csv": "c3de2e82ad1cac89693592e57eff86681803247d5a9a686ea4688b6c8b3ecd0f",
-}
-
-
 def file_hash(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -291,5 +283,31 @@ def test_notebook_executes_all_actual_cells_offline(path: Path, expected_count: 
     execute_notebook(path, expected_count, includes_clean_output, tmp_path)
 
 
-def test_all_six_tracked_csvs_are_byte_identical_to_intake() -> None:
-    assert {name: file_hash(ROOT / name) for name in TRACKED_CSV_HASHES} == TRACKED_CSV_HASHES
+def test_all_six_original_csvs_accept_both_exact_frozen_representations() -> None:
+    assert len(ORIGINAL_CSV_BYTE_CONTRACT) == 6
+    for name, contract in ORIGINAL_CSV_BYTE_CONTRACT.items():
+        payload = (ROOT / name).read_bytes()
+        current = identify_original_csv_representation(name, payload)
+        assert len(payload) == contract[current]["bytes"]
+        assert hashlib.sha256(payload).hexdigest() == contract[current]["sha256"]
+
+        if current == "git_lf":
+            assert b"\r\n" not in payload
+            counterpart = payload.replace(b"\n", b"\r\n")
+            other = "windows_crlf"
+        else:
+            assert current == "windows_crlf"
+            assert b"\r\n" in payload
+            counterpart = payload.replace(b"\r\n", b"\n")
+            other = "git_lf"
+        assert len(counterpart) == contract[other]["bytes"]
+        assert hashlib.sha256(counterpart).hexdigest() == contract[other]["sha256"]
+        assert identify_original_csv_representation(name, counterpart) == other
+
+
+def test_all_six_original_csvs_reject_altered_bytes() -> None:
+    for name in ORIGINAL_CSV_BYTE_CONTRACT:
+        changed = bytearray((ROOT / name).read_bytes())
+        changed[len(changed) // 2] ^= 1
+        with pytest.raises(ValueError, match="does not match either exact frozen representation"):
+            identify_original_csv_representation(name, bytes(changed))

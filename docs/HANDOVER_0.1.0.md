@@ -41,12 +41,27 @@ The required local matrix is:
 4. Run Linux in a container with `--network none`. The Windows test guard also
    denies external sockets in the kernel and inherited Python subprocesses
    while permitting loopback ZMQ.
-5. Recheck all six tracked CSV byte hashes against the intake.
+5. Recheck all six tracked CSVs against the frozen preimage contract. Each
+   file has exactly two accepted byte representations: the canonical LF Git
+   blob (byte count, SHA-256, and Git blob OID) and the corresponding Windows
+   CRLF checkout (byte count and SHA-256). Validation compares the supplied
+   bytes directly; it does not normalize arbitrary newline or content changes.
+   Tests prove both exact forms for every file and reject a one-byte mutation
+   for every file.
 
-The final functional evidence recorded 23/23 tests on Windows and 23/23 on Linux.
+The R2 functional evidence recorded 24/24 tests on Windows and 24/24 on Linux.
 The Windows environment had 78 active edges and the Linux environment 77.
 The Linux source mount was read-only. A Windows ZMQ proactor warning is an
 environment diagnostic; it did not skip a test or weaken a threshold.
+
+The first committed-blob validation correctly failed because the earlier test
+constants described only the Windows CRLF checkout while the authoritative Git
+blobs contain LF. That failure remains in the external evidence ledger. R2
+closes the defect with the strict dual-representation contract above; it does
+not classify the failure as flaky or weaken the data-preservation threshold.
+Notebook execution still copies and parses only the synthetic fixture. The six
+original CSVs are read only for exact hash/identity checks and are never emitted
+as evidence values.
 
 On Windows, use a short task-owned target path. Two preserved early attempts
 show that expanding the target back to the long evidence path can exceed
