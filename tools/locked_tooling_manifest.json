@@ -1,0 +1,42 @@
+{
+  "bootstrap": [
+    {
+      "filename": "installer-1.0.1-py3-none-any.whl",
+      "metadata_sha256": "746a43ad0f81e1e0e570201df7bbe6b01c597688db1ec664e1ef0ecadc90fa0b",
+      "metadata_url": "https://pypi.org/pypi/installer/1.0.1/json",
+      "name": "installer",
+      "sha256": "011d045df8b954ced7dde3a7e42ae4418da40ecda7990f2d11d5ed7c146fd98b",
+      "size": 464455,
+      "url": "https://files.pythonhosted.org/packages/26/48/bedf3ba4163e7db392c9d4cbdfc8217423196c8fccbe5a404a0f094fde63/installer-1.0.1-py3-none-any.whl",
+      "version": "1.0.1"
+    },
+    {
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "metadata_sha256": "4f190d2f0b312b3086058cee64ab4333bf3ce67fb78b4c2bdb43899049b29f4d",
+      "metadata_url": "https://pypi.org/pypi/packaging/26.3/json",
+      "name": "packaging",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "size": 129956,
+      "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "version": "26.3"
+    }
+  ],
+  "installer_mode": "exact hash-bound PyPA installer wheel, no pip or uv",
+  "locks": {
+    "linux": {
+      "file": "pylock.linux.toml",
+      "packages": 56,
+      "wheel_bytes": 122245347
+    },
+    "windows": {
+      "file": "pylock.windows.toml",
+      "packages": 56,
+      "wheel_bytes": 113871756
+    }
+  },
+  "network_install": false,
+  "python": "3.13.16",
+  "schema": 1,
+  "scripts_enabled": false,
+  "sdists_allowed": false
+}

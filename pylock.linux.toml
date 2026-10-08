@@ -1,0 +1,620 @@
+lock-version = "1.0"
+created-by = "covid-project bounded current-PyPI lock"
+requires-python = "==3.13.16"
+platform = "linux-x86_64"
+
+[[packages]]
+name = "asttokens"
+version = "3.0.2"
+direct = false
+wheel-name = "asttokens-3.0.2-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/d4/2b/04b8a15f3a1c77bc79ddf5c73875327f34b4fa75982df2b76e45e402d364/asttokens-3.0.2-py3-none-any.whl"
+wheel-size = 28702
+wheel-sha256 = "9da13157f5b28becde0bd374fc677dcd3c290614264eff096f167c469cd9f933"
+primary-metadata-url = "https://pypi.org/pypi/asttokens/3.0.2/json"
+primary-metadata-sha256 = "32d65aea2c95500c4c389d5725dba00c2627166cd40ac332a3cbe4a8a39c0010"
+
+[[packages]]
+name = "attrs"
+version = "26.1.0"
+direct = false
+wheel-name = "attrs-26.1.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl"
+wheel-size = 67548
+wheel-sha256 = "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309"
+primary-metadata-url = "https://pypi.org/pypi/attrs/26.1.0/json"
+primary-metadata-sha256 = "a882bf941fb4a0bb748d0194df544121cc130f5fb15a710ab6b804c17d2899b7"
+
+[[packages]]
+name = "cloudpickle"
+version = "3.1.2"
+direct = false
+wheel-name = "cloudpickle-3.1.2-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl"
+wheel-size = 22228
+wheel-sha256 = "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a"
+primary-metadata-url = "https://pypi.org/pypi/cloudpickle/3.1.2/json"
+primary-metadata-sha256 = "36cd9b8b2a3b6691c78f87bac524652edbe9e81cda0f13767577174de31954bc"
+
+[[packages]]
+name = "comm"
+version = "0.2.3"
+direct = false
+wheel-name = "comm-0.2.3-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/60/97/891a0971e1e4a8c5d2b20bbe0e524dc04548d2307fee33cdeba148fd4fc7/comm-0.2.3-py3-none-any.whl"
+wheel-size = 7294
+wheel-sha256 = "c615d91d75f7f04f095b30d1c1711babd43bdc6419c1be9886a85f2f4e489417"
+primary-metadata-url = "https://pypi.org/pypi/comm/0.2.3/json"
+primary-metadata-sha256 = "600f366e8636452c8fbac214036cfcdea2d9827738e202282a92fc8f94e50e07"
+
+[[packages]]
+name = "contourpy"
+version = "1.4.0"
+direct = false
+wheel-name = "contourpy-1.4.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/68/77/8f93ecbde1a4d11dfd460cd19a0c159f5487352e751fa87f5d78cc9db08e/contourpy-1.4.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 384707
+wheel-sha256 = "f1219a8898523cba821085f2da8a1b962cc696325763f09d7f93538ba43b2d70"
+primary-metadata-url = "https://pypi.org/pypi/contourpy/1.4.0/json"
+primary-metadata-sha256 = "38b45f9f0cc556a4b2621ae474419bff5ffeb0d01e3582579206af5ff8a5bd3b"
+
+[[packages]]
+name = "cycler"
+version = "0.12.1"
+direct = false
+wheel-name = "cycler-0.12.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl"
+wheel-size = 8321
+wheel-sha256 = "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30"
+primary-metadata-url = "https://pypi.org/pypi/cycler/0.12.1/json"
+primary-metadata-sha256 = "c4dc853a4b3611f48cfef3e363faeb85c70af63e3d49fe2c64dbe56ab5d688f0"
+
+[[packages]]
+name = "debugpy"
+version = "1.8.22"
+direct = false
+wheel-name = "debugpy-1.8.22-cp313-cp313-manylinux_2_34_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/bc/4f/8df91270afbf61fc5ab202951f28451194a7eb093704b26da11cb0ecd308/debugpy-1.8.22-cp313-cp313-manylinux_2_34_x86_64.whl"
+wheel-size = 3994351
+wheel-sha256 = "c1ffb9953708b648ecf6acd2e5ad2c002bf68785ed618197dd4463a2a7226f39"
+primary-metadata-url = "https://pypi.org/pypi/debugpy/1.8.22/json"
+primary-metadata-sha256 = "5fbc80c6f2ea65cf3dcba328a7b90181e6c6380929259a84d8dea2230065dab2"
+
+[[packages]]
+name = "executing"
+version = "2.2.1"
+direct = false
+wheel-name = "executing-2.2.1-py2.py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/c1/ea/53f2148663b321f21b5a606bd5f191517cf40b7072c0497d3c92c4a13b1e/executing-2.2.1-py2.py3-none-any.whl"
+wheel-size = 28317
+wheel-sha256 = "760643d3452b4d777d295bb167ccc74c64a81df23fb5e08eff250c425a4b2017"
+primary-metadata-url = "https://pypi.org/pypi/executing/2.2.1/json"
+primary-metadata-sha256 = "f0d298d5dbb9eefd8369b722873519992bd53a3fef8dc0ddeaf108ecc664e006"
+
+[[packages]]
+name = "fastjsonschema"
+version = "2.22.2"
+direct = false
+wheel-name = "fastjsonschema-2.22.2-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/49/82/2755c7c982086f00d4dab85bc120ec35045a9fc2191893a6ce79afe94443/fastjsonschema-2.22.2-py3-none-any.whl"
+wheel-size = 27413
+wheel-sha256 = "0fb3915616adac85ccfdd737d26be1089845d2019819505b42d39888458f74d4"
+primary-metadata-url = "https://pypi.org/pypi/fastjsonschema/2.22.2/json"
+primary-metadata-sha256 = "79d83f3c885677313f594c6b9ced31f4753aed087c74b2e1059c59d5ab87b99a"
+
+[[packages]]
+name = "fonttools"
+version = "4.66.1"
+direct = false
+wheel-name = "fonttools-4.66.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/4c/1c/6ec22372362b03350fe3da7bf33491a07cc9a553a36dd2383b76ec1741eb/fonttools-4.66.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-size = 5372059
+wheel-sha256 = "83572afe48733bad7a4a9c11721d3a726c2e976d82b063fc9bdd049d76955abd"
+primary-metadata-url = "https://pypi.org/pypi/fonttools/4.66.1/json"
+primary-metadata-sha256 = "6b0790228a44c7f2be7502ddb65410c80d83cf2300c7fc380ddb1f7bfb097481"
+
+[[packages]]
+name = "iniconfig"
+version = "2.3.1"
+direct = false
+wheel-name = "iniconfig-2.3.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/56/43/4ca9e49d27a1fcf6bece6f6aec0ea46bb9112489b93d4b688fb415457bdb/iniconfig-2.3.1-py3-none-any.whl"
+wheel-size = 7552
+wheel-sha256 = "9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7"
+primary-metadata-url = "https://pypi.org/pypi/iniconfig/2.3.1/json"
+primary-metadata-sha256 = "ab4d5df71d2a4f01a0eb418d7809bb22dca3293991a369309f068c07c1471557"
+
+[[packages]]
+name = "ipykernel"
+version = "7.4.0"
+direct = true
+wheel-name = "ipykernel-7.4.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/a5/f8/8b5c10c7f36ab5a3b5c4703669e5b14e44e98782b58e535dd30670e8799a/ipykernel-7.4.0-py3-none-any.whl"
+wheel-size = 123184
+wheel-sha256 = "a6757f790ddc5a6006b813d82da1a9dbb65b3a00f2b6607df776418c6566ec1c"
+primary-metadata-url = "https://pypi.org/pypi/ipykernel/7.4.0/json"
+primary-metadata-sha256 = "ffbcb8aff4b867cfc4c6b39cf3b276deb5a2b01c680c89ee62f14314b26ae016"
+
+[[packages]]
+name = "ipython"
+version = "9.17.1"
+direct = false
+wheel-name = "ipython-9.17.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/2d/1e/65b59cf518c106aa755e7f7da3099027738687a862ec785060702a481320/ipython-9.17.1-py3-none-any.whl"
+wheel-size = 639038
+wheel-sha256 = "6d1645743cfd1a07eb695d85aa2b5fa66721f8cbae9431d4049f7084bbf06509"
+primary-metadata-url = "https://pypi.org/pypi/ipython/9.17.1/json"
+primary-metadata-sha256 = "4d346bc15ca81c92eae6c6629bd8a14fac9e2032a52864382b5b11a4a3434a42"
+
+[[packages]]
+name = "ipython-pygments-lexers"
+version = "1.1.1"
+direct = false
+wheel-name = "ipython_pygments_lexers-1.1.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/d9/33/1f075bf72b0b747cb3288d011319aaf64083cf2efef8354174e3ed4540e2/ipython_pygments_lexers-1.1.1-py3-none-any.whl"
+wheel-size = 8074
+wheel-sha256 = "a9462224a505ade19a605f71f8fa63c2048833ce50abc86768a0d81d876dc81c"
+primary-metadata-url = "https://pypi.org/pypi/ipython-pygments-lexers/1.1.1/json"
+primary-metadata-sha256 = "e70f8c8b43eaa50a85c76375516387f8147ebc4c5494d7e1c6018dffb5369f89"
+
+[[packages]]
+name = "jedi"
+version = "0.20.0"
+direct = false
+wheel-name = "jedi-0.20.0-py2.py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/9a/93/242e2eab5fe682ffcb8b0084bde703a41d51e17ee0f3a31ff0d9d813620a/jedi-0.20.0-py2.py3-none-any.whl"
+wheel-size = 4884812
+wheel-sha256 = "7bdd9c2634f56713299976f4cbd59cb3fa92165cc5e05ea811fb253480728b67"
+primary-metadata-url = "https://pypi.org/pypi/jedi/0.20.0/json"
+primary-metadata-sha256 = "b1d00e574d4929341ba4e6b29aa8524b34e0bf18e0a383b51a5dc12a973866b3"
+
+[[packages]]
+name = "joblib"
+version = "1.6.0"
+direct = false
+wheel-name = "joblib-1.6.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl"
+wheel-size = 306115
+wheel-sha256 = "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba"
+primary-metadata-url = "https://pypi.org/pypi/joblib/1.6.0/json"
+primary-metadata-sha256 = "7b5f78a64b3685fd996ea5e641ae14b8990a40f3998a24a9e7adc03d84f7e7fa"
+
+[[packages]]
+name = "jsonschema"
+version = "4.26.0"
+direct = false
+wheel-name = "jsonschema-4.26.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl"
+wheel-size = 90630
+wheel-sha256 = "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce"
+primary-metadata-url = "https://pypi.org/pypi/jsonschema/4.26.0/json"
+primary-metadata-sha256 = "d0c9ccdfa30c3cdc57b048c2be21123dfb0c2f4d6bef2e8324dcb4eac985cfcf"
+
+[[packages]]
+name = "jsonschema-specifications"
+version = "2025.9.1"
+direct = false
+wheel-name = "jsonschema_specifications-2025.9.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl"
+wheel-size = 18437
+wheel-sha256 = "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe"
+primary-metadata-url = "https://pypi.org/pypi/jsonschema-specifications/2025.9.1/json"
+primary-metadata-sha256 = "91810d8f79384375ad0c0cf631e06903e2790b030d3fad2f1ad657b20ddd839e"
+
+[[packages]]
+name = "jupyter-client"
+version = "8.10.0"
+direct = false
+wheel-name = "jupyter_client-8.10.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/0f/88/7c548de1f6c2ade7c931a3282da73f9274fa6a1531091be682f89c85efb9/jupyter_client-8.10.0-py3-none-any.whl"
+wheel-size = 110184
+wheel-sha256 = "5f73f24f22fa25192cfff6b23c051932a2473a797b05734aff495b392103e14e"
+primary-metadata-url = "https://pypi.org/pypi/jupyter-client/8.10.0/json"
+primary-metadata-sha256 = "09571d0326819e52d2d8f1df5daa50826acef355461e79ee14784b86392efe3f"
+
+[[packages]]
+name = "jupyter-core"
+version = "5.9.1"
+direct = false
+wheel-name = "jupyter_core-5.9.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/e7/e7/80988e32bf6f73919a113473a604f5a8f09094de312b9d52b79c2df7612b/jupyter_core-5.9.1-py3-none-any.whl"
+wheel-size = 29032
+wheel-sha256 = "ebf87fdc6073d142e114c72c9e29a9d7ca03fad818c5d300ce2adc1fb0743407"
+primary-metadata-url = "https://pypi.org/pypi/jupyter-core/5.9.1/json"
+primary-metadata-sha256 = "35f31cc6bd2425a46af51d9f3a995998d485c51321fd60ac9d00ed43db9b1c77"
+
+[[packages]]
+name = "kiwisolver"
+version = "1.5.1"
+direct = false
+wheel-name = "kiwisolver-1.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/ab/43/86aacc027959108b4c66eeae8b73cedb057dfa6eb3a335d05ad65197081c/kiwisolver-1.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-size = 1477992
+wheel-sha256 = "74ad5c3dad54a4641b4c28cd15ded70899d04459c6c7aeacafea716be97cce6d"
+primary-metadata-url = "https://pypi.org/pypi/kiwisolver/1.5.1/json"
+primary-metadata-sha256 = "9b4053c476b6cd0da61e905cc5cdf4a7309dc0ce17809475e615c5444ade86fe"
+
+[[packages]]
+name = "matplotlib"
+version = "3.11.2"
+direct = true
+wheel-name = "matplotlib-3.11.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/a9/df/e7c10292f348cf55178a5b3c0092a38ea68891a3945f199ae8b7b8ac9dc1/matplotlib-3.11.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-size = 9861060
+wheel-sha256 = "1944895967f87c84c9b4bad29a707b31f5b36df4a3a2339ea1f8ea3ce5105539"
+primary-metadata-url = "https://pypi.org/pypi/matplotlib/3.11.2/json"
+primary-metadata-sha256 = "5f75d7e3ecb136a2b41d647188dd25f670558870661e0f870aedc76643d20606"
+
+[[packages]]
+name = "matplotlib-inline"
+version = "0.2.2"
+direct = false
+wheel-name = "matplotlib_inline-0.2.2-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/41/09/5b161152e2d90f7b87f781c2e1267494aef9c32498df793f73ad0a0a494a/matplotlib_inline-0.2.2-py3-none-any.whl"
+wheel-size = 9534
+wheel-sha256 = "3c821cf1c209f59fb2d2d64abbf5b23b67bcb2210d663f9918dd851c6da1fcf6"
+primary-metadata-url = "https://pypi.org/pypi/matplotlib-inline/0.2.2/json"
+primary-metadata-sha256 = "820bd765c47195ab362a0577189bc976636e638c9b977720240391564e1f68d4"
+
+[[packages]]
+name = "narwhals"
+version = "2.26.0"
+direct = false
+wheel-name = "narwhals-2.26.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/40/b5/1b84b2c784db76d69442334bc8b8748c840f13ca53be086f4f250ad4a0bc/narwhals-2.26.0-py3-none-any.whl"
+wheel-size = 474034
+wheel-sha256 = "29326d74f107c347fd1009bd58e38d9f7c7c5b51e6de97bc93dbc325d9038b54"
+primary-metadata-url = "https://pypi.org/pypi/narwhals/2.26.0/json"
+primary-metadata-sha256 = "40ad8d6677d5d9cbabbce3faf51c300c70d6652b32d53fba309b1cca12974eb2"
+
+[[packages]]
+name = "nbclient"
+version = "0.11.0"
+direct = true
+wheel-name = "nbclient-0.11.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/36/c9/94d73e5a01c5b926c3fa2496e97d7a8dc28ed5a77c0b2ed712f1a62e6694/nbclient-0.11.0-py3-none-any.whl"
+wheel-size = 25288
+wheel-sha256 = "ef7fa0d59d6e1d41103933d8a445a18d5de860ca6b613b87b8574accdb3c2895"
+primary-metadata-url = "https://pypi.org/pypi/nbclient/0.11.0/json"
+primary-metadata-sha256 = "04ff5a4e5bb9dbf00f8fc0d4f5bea38ed492639855d60420c855503b7b7da474"
+
+[[packages]]
+name = "nbformat"
+version = "5.11.1"
+direct = true
+wheel-name = "nbformat-5.11.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/1a/69/ee613f74085ca7103f79cd08d579c4f3177d1d26e5d3d9528d2d6536a707/nbformat-5.11.1-py3-none-any.whl"
+wheel-size = 79849
+wheel-sha256 = "cc6698fa75f4fab8755ead786317815f13a6fee3b53311c0abb1a8b51d52f7ec"
+primary-metadata-url = "https://pypi.org/pypi/nbformat/5.11.1/json"
+primary-metadata-sha256 = "25c5c85814cb58ec8f45a333dc6c2cdf550320bddcf7cb5693f1762d3d29cd25"
+
+[[packages]]
+name = "nest-asyncio2"
+version = "1.7.4"
+direct = false
+wheel-name = "nest_asyncio2-1.7.4-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/09/ed/559d2915dce85794bc0c36064043da170da50cd98746dcbddd85d5932017/nest_asyncio2-1.7.4-py3-none-any.whl"
+wheel-size = 8543
+wheel-sha256 = "86e77b52c3d1496b294af3c944b44213b9b82a12a5ee590c0acc4ca4692ef6c7"
+primary-metadata-url = "https://pypi.org/pypi/nest-asyncio2/1.7.4/json"
+primary-metadata-sha256 = "aecf64118b1fc160a1245cb958cab3d40c5e4c3d6b6e4ad6269a15de94ea9faf"
+
+[[packages]]
+name = "numpy"
+version = "2.5.3"
+direct = true
+wheel-name = "numpy-2.5.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/3a/1b/3b16a9bc514a440a7a0883684111dcb1ef1aee960af2ca95da8fc775f124/numpy-2.5.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 16708577
+wheel-sha256 = "a5fa86b80fd24bcd1aff83ad23be44ea323de3f787be8f8b15d4a65621e25321"
+primary-metadata-url = "https://pypi.org/pypi/numpy/2.5.3/json"
+primary-metadata-sha256 = "497ade587d7c2cad83a918ca79b9776dbde9eddf4c0abddbfb637b27160e87a9"
+
+[[packages]]
+name = "packaging"
+version = "26.3"
+direct = false
+wheel-name = "packaging-26.3-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl"
+wheel-size = 129956
+wheel-sha256 = "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+primary-metadata-url = "https://pypi.org/pypi/packaging/26.3/json"
+primary-metadata-sha256 = "4f190d2f0b312b3086058cee64ab4333bf3ce67fb78b4c2bdb43899049b29f4d"
+
+[[packages]]
+name = "pandas"
+version = "3.0.6"
+direct = true
+wheel-name = "pandas-3.0.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/50/fa/96d50e1e6cd0b08b5e2b7c838f65ae644940f75a124063380b5ef73b6866/pandas-3.0.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 10757657
+wheel-sha256 = "1e92d9fa834c7d877130027cddc0cad8dcff97c1f6cca26bd6310f847228b658"
+primary-metadata-url = "https://pypi.org/pypi/pandas/3.0.6/json"
+primary-metadata-sha256 = "ea78ab4387dcc2f27bf36d97007f897e5ba2d31a658c08925bdd9a362375ca2a"
+
+[[packages]]
+name = "parso"
+version = "0.8.7"
+direct = false
+wheel-name = "parso-0.8.7-py2.py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/99/5d/8268b644392ee874ee82a635cd0df1773de230bde356c38de28e298392cc/parso-0.8.7-py2.py3-none-any.whl"
+wheel-size = 107025
+wheel-sha256 = "a8926eb2a1b915486941fdbd31e86a4baf88fe8c210f25f2f35ecec5b574ca1c"
+primary-metadata-url = "https://pypi.org/pypi/parso/0.8.7/json"
+primary-metadata-sha256 = "d307f3b8667c32bb1122b571c6b70a412fcd5c5a726f280c0ec8900d4bbab3b8"
+
+[[packages]]
+name = "pexpect"
+version = "4.9.0"
+direct = false
+wheel-name = "pexpect-4.9.0-py2.py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl"
+wheel-size = 63772
+wheel-sha256 = "7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523"
+primary-metadata-url = "https://pypi.org/pypi/pexpect/4.9.0/json"
+primary-metadata-sha256 = "d6e320041db827fce8fe20dd62c807170fd83bd7f2566613c30824e156e16fc8"
+
+[[packages]]
+name = "pillow"
+version = "12.3.0"
+direct = false
+wheel-name = "pillow-12.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/f7/62/de5bdd77d935331f4f802edc11e4d82950f642caad6cb2f949837b8560e2/pillow-12.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 6937129
+wheel-sha256 = "0847a763afefb695bc912d7c131e7e0632d4edc1d8698f58ddabec8e46b8b6d3"
+primary-metadata-url = "https://pypi.org/pypi/pillow/12.3.0/json"
+primary-metadata-sha256 = "63159d6013cf20f98ff9caeb8b0b210b7f5877975587f4265397ffb0fd8c72a0"
+
+[[packages]]
+name = "platformdirs"
+version = "4.12.4"
+direct = false
+wheel-name = "platformdirs-4.12.4-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/f4/ba/223e00b885e960edd5d4b4d178c88acce019bd5b83786093681b8c393492/platformdirs-4.12.4-py3-none-any.whl"
+wheel-size = 32596
+wheel-sha256 = "78bfb9db2a8471ed7eebe3c3c932da413911042994e699b384fbb4493fa872d7"
+primary-metadata-url = "https://pypi.org/pypi/platformdirs/4.12.4/json"
+primary-metadata-sha256 = "d42470dd6770f0f45df82dce66d8f55a07f17f0da2c4b0b8727bb56fab54e76e"
+
+[[packages]]
+name = "plotly"
+version = "7.1.0"
+direct = true
+wheel-name = "plotly-7.1.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/e5/7d/905a3a3d51087515719058c94cfbda2ff0fc14417c20d557ae3e82d8b250/plotly-7.1.0-py3-none-any.whl"
+wheel-size = 9692368
+wheel-sha256 = "dbb7fa18afce40d0a8e80d1bf162eceb3faa0ce5a77fe741ad09a74cf78f53f3"
+primary-metadata-url = "https://pypi.org/pypi/plotly/7.1.0/json"
+primary-metadata-sha256 = "74c97cfb2e394e042fcb1ef1c162d9c9f0abe6dd68765ba7587fa1fd10c7a80e"
+
+[[packages]]
+name = "pluggy"
+version = "1.6.0"
+direct = false
+wheel-name = "pluggy-1.6.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl"
+wheel-size = 20538
+wheel-sha256 = "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746"
+primary-metadata-url = "https://pypi.org/pypi/pluggy/1.6.0/json"
+primary-metadata-sha256 = "db23d1227f5870da7538b1e29371d9fc9a93b0499989f8e3ef021fdccd75bc8e"
+
+[[packages]]
+name = "prompt-toolkit"
+version = "3.0.53"
+direct = false
+wheel-name = "prompt_toolkit-3.0.53-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/54/6f/84908cad2d6aa5144abcf7b42709fe4fdb459bc640ec7ac5786e7693dabc/prompt_toolkit-3.0.53-py3-none-any.whl"
+wheel-size = 392288
+wheel-sha256 = "01c0891d7f9237d5e339f7d3e42cdae80b7534abb1c7c0e3352efba6231492f2"
+primary-metadata-url = "https://pypi.org/pypi/prompt-toolkit/3.0.53/json"
+primary-metadata-sha256 = "6ca170e9088be13eab820444feb4a9cbc8432293efcba8695b8528f5b37c0119"
+
+[[packages]]
+name = "psutil"
+version = "7.2.2"
+direct = false
+wheel-name = "psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/b5/70/5d8df3b09e25bce090399cf48e452d25c935ab72dad19406c77f4e828045/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 155560
+wheel-sha256 = "076a2d2f923fd4821644f5ba89f059523da90dc9014e85f8e45a5774ca5bc6f9"
+primary-metadata-url = "https://pypi.org/pypi/psutil/7.2.2/json"
+primary-metadata-sha256 = "84f9d2597c3c15fe19d1ce069bfdbf25951dc423dc51d67c3979468c029b6415"
+
+[[packages]]
+name = "ptyprocess"
+version = "0.7.0"
+direct = false
+wheel-name = "ptyprocess-0.7.0-py2.py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl"
+wheel-size = 13993
+wheel-sha256 = "4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35"
+primary-metadata-url = "https://pypi.org/pypi/ptyprocess/0.7.0/json"
+primary-metadata-sha256 = "0c0fc6ffeabfe060db4b7657d629baba51763670b3733671c7472188c9341dd8"
+
+[[packages]]
+name = "pure-eval"
+version = "0.2.4"
+direct = false
+wheel-name = "pure_eval-0.2.4-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/6d/18/83376915176eb058cb86470eb7396388a13350b09a8f233a79303bbcbc5b/pure_eval-0.2.4-py3-none-any.whl"
+wheel-size = 11893
+wheel-sha256 = "96cae060a313cfaad51bb761278bfb0e62dc0248d9315a81173752dc546cd37a"
+primary-metadata-url = "https://pypi.org/pypi/pure-eval/0.2.4/json"
+primary-metadata-sha256 = "c6a2451497d997129716c8ca9592c0e96157cd26bcbcfb9d33e97fb23c4b6ca7"
+
+[[packages]]
+name = "pygments"
+version = "2.21.0"
+direct = false
+wheel-name = "pygments-2.21.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl"
+wheel-size = 1250147
+wheel-sha256 = "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+primary-metadata-url = "https://pypi.org/pypi/pygments/2.21.0/json"
+primary-metadata-sha256 = "330104a10adc8a587e3f98f4e207557125ca0c1d489e129334da5acb2b813a03"
+
+[[packages]]
+name = "pyparsing"
+version = "3.3.3"
+direct = false
+wheel-name = "pyparsing-3.3.3-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl"
+wheel-size = 126420
+wheel-sha256 = "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4"
+primary-metadata-url = "https://pypi.org/pypi/pyparsing/3.3.3/json"
+primary-metadata-sha256 = "b851d5414eca50b38263f56c00a1fbec80383a26a3ad8e41a204b72cdeee5751"
+
+[[packages]]
+name = "pytest"
+version = "9.1.1"
+direct = true
+wheel-name = "pytest-9.1.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/24/25/1de2678b631f5a49215c6c96fff41ba892b0a34df68d6d80292b1b48aa7f/pytest-9.1.1-py3-none-any.whl"
+wheel-size = 386536
+wheel-sha256 = "37a86b45efb9a47a61a36449063e8e18d0cab3161329fc099eb21783169c4f0c"
+primary-metadata-url = "https://pypi.org/pypi/pytest/9.1.1/json"
+primary-metadata-sha256 = "8ed48304ba7fd0ae974a041f117487b499d553b40e5ce55a9ece677e946f68dd"
+
+[[packages]]
+name = "python-dateutil"
+version = "2.9.0.post0"
+direct = false
+wheel-name = "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+wheel-size = 229892
+wheel-sha256 = "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+primary-metadata-url = "https://pypi.org/pypi/python-dateutil/2.9.0.post0/json"
+primary-metadata-sha256 = "65747bc111eb972ae6f477f211253f21e25738cb7d894ddb80ddd65f620b58a7"
+
+[[packages]]
+name = "pyzmq"
+version = "27.2.0"
+direct = false
+wheel-name = "pyzmq-27.2.0-cp312-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/62/2c/d5828306f795e8d34676d266823b74e2101e0ad3760d12083de3e02abbb2/pyzmq-27.2.0-cp312-abi3-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 872258
+wheel-sha256 = "dea74fd65f1fc5f7fe167916a473ebe6ed6174e5e5d9de11ea6583661be6cf43"
+primary-metadata-url = "https://pypi.org/pypi/pyzmq/27.2.0/json"
+primary-metadata-sha256 = "c5a15b67a143195e2516181d5d13845050f4b64e63747f7c9e35d31690225648"
+
+[[packages]]
+name = "referencing"
+version = "0.37.0"
+direct = false
+wheel-name = "referencing-0.37.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl"
+wheel-size = 26766
+wheel-sha256 = "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231"
+primary-metadata-url = "https://pypi.org/pypi/referencing/0.37.0/json"
+primary-metadata-sha256 = "a67968d8e03aa45e650fc2ff0d07796676db1a7841ce8e810bf2dba5af689464"
+
+[[packages]]
+name = "rpds-py"
+version = "2026.9.1"
+direct = false
+wheel-name = "rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/a0/36/76fab39973ee11e7f9f357c55138197bb01c86f6502cb76487e3b4f42db0/rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+wheel-size = 370794
+wheel-sha256 = "7868b85224291c6cb6759f9b5adb9745f486d226f62b16a614dd5a2a5ab2b35b"
+primary-metadata-url = "https://pypi.org/pypi/rpds-py/2026.9.1/json"
+primary-metadata-sha256 = "93808b9ff27aabe26d9a4f03b28422d1d05c3fb8716d88f3826e7ddf4b0b258b"
+
+[[packages]]
+name = "scikit-learn"
+version = "1.9.1"
+direct = true
+wheel-name = "scikit_learn-1.9.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/23/e5/688703d357e5393f708d98eb189fd415ae69e39f6de03c6bd4005aef6118/scikit_learn-1.9.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 9121732
+wheel-sha256 = "55e79d6e9b0923f1a978179822bd43d7f5543f45e970a00fe861f43486380aba"
+primary-metadata-url = "https://pypi.org/pypi/scikit-learn/1.9.1/json"
+primary-metadata-sha256 = "504deae727e6f297cc441e5208453ec61edb2e923052ff19db712630a62d7de2"
+
+[[packages]]
+name = "scipy"
+version = "1.18.1"
+direct = false
+wheel-name = "scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/41/48/6450ed9243315322bbc19ac57b9b70d66a20bf1d38d124c96bc4bf6af9ea/scipy-1.18.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+wheel-size = 35312578
+wheel-sha256 = "fdaf5ea890a6183d0565f51a61799d67081bd5b1cf03c5f4b3fd3732108625c9"
+primary-metadata-url = "https://pypi.org/pypi/scipy/1.18.1/json"
+primary-metadata-sha256 = "8fc6948fe40ecc069474738e18405af6cab47eefb2ddce5ac017bf342df5a470"
+
+[[packages]]
+name = "six"
+version = "1.17.0"
+direct = false
+wheel-name = "six-1.17.0-py2.py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl"
+wheel-size = 11050
+wheel-sha256 = "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+primary-metadata-url = "https://pypi.org/pypi/six/1.17.0/json"
+primary-metadata-sha256 = "d8de39dd52b73048d81a8fd78022ee2bc72f8b568bcf0d88e5d5069c302b1208"
+
+[[packages]]
+name = "stack-data"
+version = "0.6.3"
+direct = false
+wheel-name = "stack_data-0.6.3-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/f1/7b/ce1eafaf1a76852e2ec9b22edecf1daa58175c090266e9f6c64afcd81d91/stack_data-0.6.3-py3-none-any.whl"
+wheel-size = 24521
+wheel-sha256 = "d5558e0c25a4cb0853cddad3d77da9891a08cb85dd9f9f91b9f8cd66e511e695"
+primary-metadata-url = "https://pypi.org/pypi/stack-data/0.6.3/json"
+primary-metadata-sha256 = "661ff6aa33a0a0ab2ef7070273aaace251db44ee30225198443474f213396b9a"
+
+[[packages]]
+name = "threadpoolctl"
+version = "3.7.0"
+direct = false
+wheel-name = "threadpoolctl-3.7.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/43/3f/f88a53f60a472b46f4023f56d204dd7de33d34c5d2acbfa0d70a674e639e/threadpoolctl-3.7.0-py3-none-any.whl"
+wheel-size = 26362
+wheel-sha256 = "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be"
+primary-metadata-url = "https://pypi.org/pypi/threadpoolctl/3.7.0/json"
+primary-metadata-sha256 = "4992649d4a9d522c81340716d1652452f9b89f73142b04d34157317e90e24bac"
+
+[[packages]]
+name = "tornado"
+version = "6.5.10"
+direct = false
+wheel-name = "tornado-6.5.10-cp39-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/60/33/df6d7d04854a58619f8349a51e3edb138324130a7562b0bb21f115bb940f/tornado-6.5.10-cp39-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl"
+wheel-size = 467096
+wheel-sha256 = "bdf942448169e5336451d0494d7e3d81cfa726d5aa312affdc4682dd62a62f6d"
+primary-metadata-url = "https://pypi.org/pypi/tornado/6.5.10/json"
+primary-metadata-sha256 = "2899665f977cc3b391ae75b15013fcd9072ee11effdb39d4f87f8aed81b81b3e"
+
+[[packages]]
+name = "traitlets"
+version = "5.16.1"
+direct = false
+wheel-name = "traitlets-5.16.1-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/ad/66/0d785f0bc5e4315a96c989bb476d0fc07ea4f85132550c7b156ca2035d52/traitlets-5.16.1-py3-none-any.whl"
+wheel-size = 86211
+wheel-sha256 = "f775618166caa0396c8e337099240f2bd3e5e917d203b2e6fbe21a58d3cb1f6b"
+primary-metadata-url = "https://pypi.org/pypi/traitlets/5.16.1/json"
+primary-metadata-sha256 = "6a0e4dbcca0a80d132f0d534e7d5446e184e88d152a72d4731386d7b1a6facc3"
+
+[[packages]]
+name = "typing-extensions"
+version = "4.16.0"
+direct = false
+wheel-name = "typing_extensions-4.16.0-py3-none-any.whl"
+wheel-url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl"
+wheel-size = 45571
+wheel-sha256 = "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+primary-metadata-url = "https://pypi.org/pypi/typing-extensions/4.16.0/json"
+primary-metadata-sha256 = "2140da00d62dde967f52d0be0ae28444f1d6a3fe603f52c83c23988c32122d5a"
+
+[[packages]]
+name = "wcwidth"
+version = "0.9.2"
+direct = false
+wheel-name = "wcwidth-0.9.2-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-url = "https://files.pythonhosted.org/packages/db/6c/f940133c71427c208575910e981942bd78c98b1f7cd0d1425ca4b7457c04/wcwidth-0.9.2-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+wheel-size = 769763
+wheel-sha256 = "751bef0ab404b6a1dc028b56b4b85d46486be1c55833f80da533e42dc691f389"
+primary-metadata-url = "https://pypi.org/pypi/wcwidth/0.9.2/json"
+primary-metadata-sha256 = "01a7c33922cf82a00a6d687cbc33725bf383d42c8f23de547a8e10f9b34f16d7"
